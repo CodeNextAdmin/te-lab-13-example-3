@@ -1,11 +1,37 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
+body{
+			font-family: 'Open Sans', sans-serif;
+			color: white;
+			text-align: center;
+			background-color: cornflowerblue;
+		}
+		div{
+			width:30%;
+			padding: 50px;
+			margin:100px auto;
+			border-radius: 5px;
+			background-color: white;
+			color:cornflowerblue;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		h1{
+			margin-bottom: 55px;
+		}
+		input{
+			border-top: transparent;
+			border-left: transparent;
+			border-right: transparent;
+			border-bottom: 2px solid #dddddd;
+			padding: 10px 2px;
+			margin: 15px;
+			width:80%;
+		}
+		input:focus{
+			outline-width: 0px;
+		}
+		#submit{
+			border-radius: 15px;
+			border: transparent;
+			padding: 8px;
+			font-weight: bold;
+			color:#555555;
+		}
