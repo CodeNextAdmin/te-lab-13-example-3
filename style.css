@@ -16,6 +16,7 @@ body {
 }
 h1 {
   margin-bottom: 55px;
+
 }
 input {
   border-top: transparent;
@@ -37,5 +38,10 @@ input:focus {
   font-weight: bold;
   color: #555555;
   background-color: cornflowerblue;
-  color:white;
+  color: white;
+}
+#welcome {
+  display: none;
+  background-color: white;
+  height: 100px;
 }
