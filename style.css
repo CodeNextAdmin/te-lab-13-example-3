@@ -3,11 +3,12 @@ body {
   color: white;
   text-align: center;
   background-color: cornflowerblue;
+  padding: 100px;
 }
-div {
+.form {
   width: 30%;
   padding: 50px;
-  margin: 100px auto;
+  margin: 0px auto;
   border-radius: 5px;
   background-color: white;
   color: cornflowerblue;
