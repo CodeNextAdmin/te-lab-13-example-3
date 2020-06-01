@@ -4,6 +4,7 @@
 	<title>Log In</title>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/style.css" />
+  <script src="script.js"></script>
 </head>
 <body>
 	<!-- <div class="heading">Sign In!</div> -->
@@ -13,7 +14,8 @@
 			<input type="text" id="username" name="username" placeholder="Username"><br>
 			<input type="password" id="password" name="password" placeholder="Password"><br><br>
 
-      <button id="submit"><a href="welcomepage.html">Submit</a></button>
+      <button id="submit" onclick="displayWelcome()">Submit</button>
+      <h1 id="welcome"></h1>
 		</form> 
 	</div>
 </body>

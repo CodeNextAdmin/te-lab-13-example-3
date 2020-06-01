@@ -35,9 +35,6 @@ input:focus {
   padding: 8px;
   font-weight: bold;
   color: #555555;
-  backgrouond-color: cornflowerblue;
-}
-a{
-  text-decoration:none;
+  background-color: cornflowerblue;
   color:white;
 }
