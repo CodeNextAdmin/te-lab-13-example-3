@@ -16,7 +16,6 @@ body {
 }
 h1 {
   margin-bottom: 55px;
-
 }
 input {
   border-top: transparent;
@@ -41,7 +40,10 @@ input:focus {
   color: white;
 }
 #welcome {
-  display: none;
-  background-color: white;
   height: 100px;
+  display: none;
+  padding:50px;
+  background-color: white;
+  color: cornflowerblue;
+  border-radius: 5px;
 }
